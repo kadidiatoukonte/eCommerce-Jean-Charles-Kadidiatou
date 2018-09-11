@@ -97,7 +97,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.basket{
+  width: 232px;
+}
 
+.none{
+  display: none;
+}
+
+.flex{
+  display: inline-flex;
+}
+
+.card-deck{
+  width: 75.5em;
+}
+
+.mt-5{
+  margin-top: 14rem !important;
+}
+
+.footer{
+  color: white;
+  bottom: 0;
+  position: absolute;
+  padding: 1em;
+}
+
+
+@media  screen and (max-width: 767px) {
+  .card-deck{
+    display: inline;
+  }
+}
 
 
 
